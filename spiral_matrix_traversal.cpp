@@ -32,17 +32,17 @@ int main() {
         right--;
 
         if(top<=bottom){
-        for(int i=right;i>=left;i--){
-            res.push_back(mat[bottom][i]);
-        }
-        bottom--;
+            for(int i=right;i>=left;i--){
+                res.push_back(mat[bottom][i]);
+            }
+            bottom--;
         }
 
         if(left<=right){
-        for(int i=bottom;i>=top;i--){
-            res.push_back(mat[i][left]);
-        }
-        left++;
+            for(int i=bottom;i>=top;i--){
+                res.push_back(mat[i][left]);
+            }
+            left++;
         }
 
     }
