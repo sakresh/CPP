@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n=5,res=12;
+    int n=5,res=14;
     // cin>>n;
     vector<int> v={1,2,3,7,6};
     int i=0,j=0;
